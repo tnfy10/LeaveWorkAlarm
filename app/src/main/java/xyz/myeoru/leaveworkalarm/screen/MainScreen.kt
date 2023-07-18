@@ -1,4 +1,4 @@
-package xyz.myeoru.leaveworkalarm.view
+package xyz.myeoru.leaveworkalarm.screen
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -13,7 +13,7 @@ import xyz.myeoru.leaveworkalarm.ui.theme.LeaveWorkAlarmTheme
 import xyz.myeoru.leaveworkalarm.viewmodel.MainViewModel
 
 @Composable
-fun MainView(
+fun MainScreen(
     mainViewModel: MainViewModel = viewModel()
 ) {
     Column(
@@ -32,6 +32,6 @@ fun MainView(
 @Composable
 fun MainViewPreview() {
     LeaveWorkAlarmTheme {
-        MainView()
+        MainScreen()
     }
 }

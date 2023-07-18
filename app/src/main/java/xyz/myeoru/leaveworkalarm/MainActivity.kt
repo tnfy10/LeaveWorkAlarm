@@ -8,7 +8,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import xyz.myeoru.leaveworkalarm.ui.theme.LeaveWorkAlarmTheme
-import xyz.myeoru.leaveworkalarm.view.MainView
+import xyz.myeoru.leaveworkalarm.screen.MainScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MainView()
+                    MainScreen()
                 }
             }
         }
